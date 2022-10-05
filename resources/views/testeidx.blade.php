@@ -3,14 +3,6 @@
 
 @section('conteudo')
     
-@php
-    // dump($filmes);
-    // dump($generos);
-
-   
-    
- 
-@endphp
 
 
 
