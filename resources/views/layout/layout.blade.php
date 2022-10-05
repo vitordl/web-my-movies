@@ -82,13 +82,13 @@
 			<!-- mobile menu -->
 			<div class="hidden mobile-menu">
 				<ul class="">
-					<li class="active"><a href="{{ route('index') }}" class="block text-sm px-2 py-4    hover:bg-green-500 text-gray-300
+					<li class="active"><a href="{{ route('index') }}" class="block text-sm px-2 py-4    hover:bg-green-400 hover:bg-opacity-50 text-gray-300
 						{{ (request()->is('/')) ? 'active-mobile' : '' }}
 						">Home</a></li>
-					<li><a href="{{ route('servicos') }}" class="block text-sm px-2 py-4 hover:bg-green-500  text-gray-300
+					<li><a href="{{ route('servicos') }}" class="block text-sm px-2 py-4 hover:bg-green-400 hover:bg-opacity-50  text-gray-300
 						{{ (request()->is('servicos')) ? 'active-mobile' : '' }}
 						">Serviços</a></li>
-					<li><a href="{{ route('sobre') }}" class="block text-sm px-2 py-4 hover:bg-green-500  text-gray-300
+					<li><a href="{{ route('sobre') }}" class="block text-sm px-2 py-4 hover:bg-green-400 hover:bg-opacity-50 text-gray-300
 						{{ (request()->is('sobre')) ? 'active-mobile' : '' }}
 						">Sobre</a></li>
 					
