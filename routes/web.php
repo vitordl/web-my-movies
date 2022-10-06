@@ -24,7 +24,7 @@ Route::get('/series', 'Main@series')->name('series');
 
 Route::get('/show/{id?}', 'Main@show')->name('show');
 
-Route::get('/pesquisa', 'Main@pesquisa')->name('pesquisa');
+Route::post('/pesquisa', 'Main@pesquisa')->name('pesquisa');
 
 Route::get('/sobre', function(){
     return view('about');
