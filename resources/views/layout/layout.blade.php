@@ -95,7 +95,7 @@
 				</ul>
 			
 		
-				<form action="{{ route('pesquisa') }}" method="get" class="px-2 py-4">
+				<form action="{{ route('pesquisa') }}" method="post" class="px-2 py-4">
 					@csrf
 					<input type="text" name="search" id="search" placeholder="pesquisar.." class="rounded-full bg-gray-700 px-3 py-1  outline-none" required>
 					<input type="submit" value="ok" class=" bg-green-500 px-3 py-0.3 rounded-full ">
