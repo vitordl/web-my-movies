@@ -21,11 +21,11 @@
         <span class="font-extrabold text-lg tracking-widest uppercase">QuickList</span> -  um projeto de lista de tarefas, trabalhando com todo o CRUD de banco de dados para gerenciar tarefas ou anotações. Por enquanto em modo público para qualquer usuário acessar, podendo ver as tarefas que os outros já criaram (se caso estas não foram excluídas).
         
         <div class="mt-7 ">
-        <a class="text-lg underline " href="http://web-quick-list.herokuapp.com/" target="_blank">Confira aqui</a>
+        <a class="text-lg underline " href="https://web-quick-list-production.up.railway.app/" target="_blank">Confira aqui</a>
         </div>
 
     
-        <a href="http://web-quick-list.herokuapp.com/" target="_blank">
+        <a href="https://web-quick-list-production.up.railway.app/" target="_blank">
         <img src="{{ asset('imgs/quick.JPG') }}" alt="" class="rounded-lg shadow-lg mt-2 opacity-70 transition duration-300 hover:scale-105">
         </a>  
   
