@@ -1,4 +1,3 @@
-Access: http://web-my-movies.herokuapp.com/
 
 
 
